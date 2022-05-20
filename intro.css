@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+#Heading {
+    color: black;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head {
+    margin-left: 30px;
+}
+
+.image {
+    height: 100px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+#Heading::before {
+    content: "";
+    background: url(head.jpg) no-repeat center top;
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} 
+
+#name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+#pn1 {
+    color: firebrick;
+    padding: 7px;
+}
+
+#pn2{
+    animation-name: name;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name{
+    from{
+        font-size: 2px;
+    }
+    to{
+        font-size:33px ;
+    }
+}
+
+#name::before {
+    background-color: red;
+    content: "";
+    background: url(nameimg.jpg);
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#branch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+#pb1 {
+    color: grey;
+    padding: 4px;
+}
+
+#branch::before {
+    content: "";
+    background-image: url(branchimg.jpg) ;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+#ph1 {
+    display: flex;
+    flex-direction: row;
+    color: brown;
+    padding: 7px;
+}
+
+#ph2 {
+    padding: 7px;
+}
+
+#hobbies::before {
+    content: "";
+    background: url(activities.jpg) no-repeat center top;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} 
+
+#activities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#activities .box {
+    padding-bottom: 34px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#activities img {
+    height: 166px;
+    display: block;
+}
+
+#music{
+    padding-left: 40px;
+    padding-bottom: 34px;
+}
+
+
+#activities::before {
+    content: "";
+    background: url(activities.jpg) no-repeat center top;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} 
+
+#past {
+    height: 320px;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+#pp1 {
+    color: goldenrod;
+    width: 300px;
+    margin: auto;
+    padding: 7px;
+}
+
+#pp2 {
+    width: 1200px;
+    margin: auto;
+    padding: 7px;
+}
+
+#pp3 {
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+#past::before {
+    content: "";
+    background: url(pastimg.jpg) no-repeat center top;
+    position: absolute;
+    height: 320px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+} 
+
+#love {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-size: 33px;
+    font-family: 'Bree Serif', serif;
+}
+
+#pl1 {
+    color: purple;
+    padding: 4px;
+}
+
+#love::before {
+    content: "";
+    background: url(car.jpg) no-repeat center;
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+} 
