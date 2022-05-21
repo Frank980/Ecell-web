@@ -72,7 +72,7 @@
     height: 350px;
     width: 100%;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.45;
 }
 
 #branch {
@@ -97,7 +97,7 @@
     height: 350px;
     width: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.4;
 }
 
 #hobbies {
@@ -128,7 +128,7 @@
     height: 200px;
     width: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.4;
 } 
 
 #activities {
@@ -161,7 +161,7 @@
     height: 200px;
     width: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.4;
 } 
 
 #past {
@@ -196,7 +196,7 @@
     height: 320px;
     width: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.5;
 } 
 
 #love {
